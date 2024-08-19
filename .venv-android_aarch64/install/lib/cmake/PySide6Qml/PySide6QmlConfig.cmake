@@ -1,0 +1,5 @@
+if (NOT PYTHON_CONFIG_SUFFIX)
+    message(STATUS "PySide6QmlConfig: Using default python: .abi3")
+    SET(PYTHON_CONFIG_SUFFIX .abi3)
+endif()
+include(${CMAKE_CURRENT_LIST_DIR}/PySide6QmlConfig${PYTHON_CONFIG_SUFFIX}.cmake)

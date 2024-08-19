@@ -1,0 +1,15 @@
+prefix=/home/markusk/qt_sources/pyside-setup/build/.venv-android_armv7a/install
+exec_prefix=/home/markusk/qt_sources/pyside-setup/build/.venv-android_armv7a/install
+libdir=lib
+includedir=/home/markusk/qt_sources/pyside-setup/build/.venv-android_armv7a/install/include/PySide6
+typesystemdir=/home/markusk/qt_sources/pyside-setup/build/.venv-android_armv7a/install/share/PySide6/typesystems
+gluedir=/home/markusk/qt_sources/pyside-setup/build/.venv-android_armv7a/install/share/PySide6/glue
+pythonpath=/home/markusk/qt_sources/pyside-setup/build/.venv-android_armv7a/install/lib/python3.11/site-packages
+
+Name: PySide6
+Description: Support library for Python bindings of Qt5-based libraries.
+Version: 6.7.0~a1
+Libs: -L${libdir} -lpyside6.abi3
+Cflags: -I${includedir}
+Requires: shiboken6
+
